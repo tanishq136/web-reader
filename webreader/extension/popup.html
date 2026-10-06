@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Reader</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Web Reader</h1>
+      <p class="hint">Ask a question about the current tab.</p>
+      <label for="query">Question</label>
+      <textarea id="query" rows="4" placeholder="What is this page about?"></textarea>
+      <button type="button" id="submitbtn">Ask page</button>
+      <p id="status" role="status" aria-live="polite"></p>
+      <section id="result" aria-live="polite"></section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

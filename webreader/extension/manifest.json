@@ -1,0 +1,20 @@
+{
+  "name": "Web Reader",
+  "version": "1.0.0",
+  "description": "Ask grounded questions about the active web page.",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_title": "Web Reader",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
